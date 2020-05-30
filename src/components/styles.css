@@ -7,17 +7,10 @@
     flex-direction: row;
 }
 
-.image {
-    width: 20vw;
-    height: 20vw;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 10px;
-    margin-left: 10%;
-    border-radius: 50%;
-}
-
 .headerInformation {
-    margin-left: 5rem;
+    margin-left: 5vw;
+    margin-top: 7vw;
     color: #fff;
+    font-size: 30px;
+    max-font-size: 16px;
 }
