@@ -1,0 +1,23 @@
+
+.root {
+    margin: 2em;
+    background-color: #34495e;
+    border-radius: 200px 20px 20px 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    width: 20vw;
+    height: 20vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10%;
+    border-radius: 50%;
+}
+
+.headerInformation {
+    margin-left: 5rem;
+    color: #fff;
+}

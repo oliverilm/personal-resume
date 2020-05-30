@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import PortfolioBody from "./components/PortfolioBody";
+import ParticlesBg from 'particles-bg'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PortfolioBody />
+      <ParticlesBg num={10}  scale={0.5} color={["#e74c3c","#f1c40f","#1abc9c", "#2ecc71", "#3498db"]}  type="circle" bg={true} />
+
+
     </div>
   );
 }
